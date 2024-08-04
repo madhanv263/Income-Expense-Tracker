@@ -1,0 +1,179 @@
+/* Header Section Media Queries */
+@media (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .header-image,
+  .header-section {
+    width: 100%;
+  }
+
+  .header-text {
+    font-size: 3rem;
+  }
+
+  .header-section h4 {
+    font-size: 1.2rem;
+  }
+
+  .header-pg {
+    font-size: 1.2rem;
+  }
+}
+
+/* Navbar Section Media Queries */
+@media (max-width: 1000px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .left-section {
+    margin-bottom: 10px;
+  }
+
+  .right-section ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .right-section li {
+    padding: 5px 0;
+  }
+}
+
+/* Main Container Media Queries */
+@media (max-width: 1000px) {
+  .main-container {
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .img-section {
+    align-self: flex-end;
+    margin-top: 0;
+  }
+
+  .main-section {
+    text-align: left;
+    max-width: 100%;
+  }
+}
+
+/* Bonus Container Media Queries */
+@media (max-width: 1000px) {
+  .bonus-container {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .bonus-container h1 {
+    font-size: 1.25rem;
+  }
+
+  .bonus-container ul {
+    padding-left: 15px;
+  }
+
+  .bonus-container li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Financial Study Media Queries */
+@media (max-width: 1000px) {
+  .financial-study h1 {
+    font-size: 1.5em;
+  }
+
+  .financial-study h2 {
+    font-size: 1.2em;
+  }
+
+  .financial-study li {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 700px) {
+  .financial-study h1 {
+    font-size: 1.2em;
+  }
+
+  .financial-study h2 {
+    font-size: 1em;
+  }
+
+  .financial-study li {
+    font-size: 0.8em;
+  }
+}
+
+/* General Headings Media Queries */
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 1.6em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  .tracker-table {
+    padding: 15px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .tracker-table {
+    padding: 10px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
+
+/* Miscellaneous Media Queries */
+@media (max-width: 1000px) {
+  header {
+    font-size: 1.125rem;
+    padding: 1rem;
+  }
+
+  .main-container {
+    padding: 1rem;
+  }
+
+  input, button {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  .instructions ol li {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*Navbar*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.left-section img {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+}
+
+.right-section {
+  flex: 2;
+}
+
+.right-section ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+.right-section li {
+  padding: 0 10px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.right-section a {
+  color: black;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background: rgb(100, 100, 100);
+  margin: 0;
+  width: 100%;
+}
+
+/*Header*/
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: white;
+}
+
+.header-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-section {
+  flex: 2;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-text,
+.header-section h4,
+.header-pg {
+  align-self: flex-start;
+  margin: 0;
+}
+
+.header-text {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 3rem;
+  line-height: 1.3;
+}
+
+.header-section h4 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.header-pg {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+/*Main*/
+.main-text {
+  display: block;
+  text-align: center;
+  background-color: rgb(190, 190, 190);
+  margin: 20px 0;
+  padding: 5px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.img-section {
+  margin-top: 10px;
+}
+
+.img-section img {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+.main-section {
+  flex: 2;
+  max-width: 600px;
+}
+
+.main-section p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.main-section span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/*Bonus Tip*/
+.bonus-container {
+  border: 1px solid #ddd;
+  background-color: #e3fde3;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 20px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bonus-container h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.bonus-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.bonus-container li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.bonus-container img {
+  max-width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.start-today {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.start-today h1 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.start-today p {
+  font-size: 1.3rem;
+}
+
+/*Footer*/
+.footer-section img {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+}
+
+.contact-container {
+  background-color: rgb(202, 202, 202);
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-top: 20px;
+}
+
+.contact-title {
+  padding-top: 2px; 
+  padding-bottom: 1px;
+}
+
+.contact-container h2 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+
+.contact-container h2:hover {
+  cursor: pointer;
+}
+
+.contact-container p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.contact-container ul {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  gap: 4px; 
+  justify-content: center; 
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; 
+}
+
+.contact-container li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.contact-container a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.contact-container p {
+  padding: 10px;
+}
+
+.contact-container a:hover {
+  cursor: pointer;
+}
+
+.social-icons {
+  color: black;
+}
+
+/*Copy Rights*/
+.copy-right {
+  text-align: center; 
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+
