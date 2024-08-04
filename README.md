@@ -1,8 +1,8 @@
-Income and Expense Tracker
+# Income and Expense Tracker
 
 The Income and Expense Tracker is a simple yet powerful web application built with HTML, CSS, and JavaScript. It helps you manage and track your financial transactions, visualize spending patterns, and analyze your income and expenses efficiently.
 
-Features:
+## Features
 
 1. **Add Transactions:**
    - Record your income and expenses with dates and descriptions.
@@ -16,7 +16,7 @@ Features:
 4. **Responsive Design:**
    - Access the application seamlessly on desktop and mobile devices.
 
-Technologies Used:
+## Technologies Used
 
 1. **HTML:**
    - Provides the structure of the web application.
@@ -27,12 +27,12 @@ Technologies Used:
 3. **JavaScript:**
    - Adds functionality and interactivity, enabling dynamic updates to transactions and visual data representations.
 
-Getting Started:
+## Getting Started
 
-Prerequisites:
+**Prerequisites:**
 - A modern web browser (e.g., Chrome, Firefox, Edge).
 
-Installation:
+**Installation:**
 1. Clone the Repository:
    `git clone https://github.com/madhanv263/IncomeExpenseTracker.git`
 
@@ -40,9 +40,9 @@ Installation:
    `cd IncomeExpenseTracker`
 
 3. Open index.html:
-   Open the `index.html` file in your preferred web browser to start using the tracker.
+   - Open the `index.html` file in your preferred web browser to start using the tracker.
 
-Usage:
+## Usage
 
 1. **Add Transactions:**
    - Click on the "Add Expense" button.
@@ -55,7 +55,7 @@ Usage:
 3. **Analyze Data:**
    - Use graphical representations to understand financial trends.
 
-Contributing:
+## Contributing
 
 1. Clone the Repository:
    `git clone https://github.com/madhanv263/IncomeExpenseTracker.git`
@@ -79,15 +79,15 @@ Contributing:
 7. Create a Pull Request:
    - Go to the original repository on GitHub and submit a pull request with a detailed description of your changes.
 
-License:
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
 
-Contact:
-For any questions or feedback, reach out to the repository owner at madhanv263@gmail.com.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Acknowledgements:
+## Contact
+
+For any questions or feedback, reach out to the repository owner at [madhanv263@gmail.com](mailto:madhanv263@gmail.com).
+
+## Acknowledgements
+
 - Thanks to GitHub for hosting this repository.
 - Inspired by various personal finance management tools.
-
----
-
