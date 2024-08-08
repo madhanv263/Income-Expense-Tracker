@@ -1,4 +1,4 @@
-# Income and Expense Tracker
+# Income and Expense Management
 
 The Income and Expense Tracker is a simple yet powerful web application built with HTML, CSS, and JavaScript. It helps you manage and track your financial transactions, visualize spending patterns, and analyze your income and expenses efficiently.
 
